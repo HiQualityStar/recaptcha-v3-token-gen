@@ -58,7 +58,7 @@ export async function GET(req: NextRequest) {
   try {
     // Wait for up to 15 seconds for the token to be set
     isNew = true;
-    const timeoutMs = 15000;
+    const timeoutMs = 7000;
     const intervalMs = 200;
     let waited = 0;
 
